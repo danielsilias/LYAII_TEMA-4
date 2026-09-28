@@ -1,0 +1,237 @@
+.root {
+    -fx-background-color: #0f172a;
+    -fx-font-family: "Segoe UI";
+}
+
+/* =========================
+   CABECERA
+   ========================= */
+
+.header {
+    -fx-background-color: #111827;
+    -fx-padding: 18 22 18 22;
+    -fx-border-color: transparent transparent #263244 transparent;
+    -fx-border-width: 0 0 1 0;
+}
+
+.titulo {
+    -fx-text-fill: #f8fafc;
+    -fx-font-size: 28px;
+    -fx-font-weight: bold;
+}
+
+.subtitulo {
+    -fx-text-fill: #94a3b8;
+    -fx-font-size: 13px;
+}
+
+/* =========================
+   BOTONES
+   ========================= */
+
+.button {
+    -fx-background-color: #1e293b;
+    -fx-text-fill: #e2e8f0;
+
+    -fx-background-radius: 7;
+    -fx-border-radius: 7;
+
+    -fx-border-color: #334155;
+    -fx-border-width: 1;
+
+    -fx-padding: 8 14 8 14;
+
+    -fx-cursor: hand;
+    -fx-font-size: 13px;
+}
+
+.button:hover {
+    -fx-background-color: #334155;
+    -fx-border-color: #475569;
+}
+
+.button:pressed {
+    -fx-background-color: #0f172a;
+}
+
+.btn-compilar {
+    -fx-background-color: #2563eb;
+    -fx-text-fill: white;
+
+    -fx-border-color: #3b82f6;
+
+    -fx-font-weight: bold;
+
+    -fx-padding: 9 22 9 22;
+}
+
+.btn-compilar:hover {
+    -fx-background-color: #1d4ed8;
+}
+
+/* =========================
+   PANELES
+   ========================= */
+
+.panel {
+    -fx-background-color: #111827;
+    -fx-padding: 15;
+}
+
+.panel-titulo {
+    -fx-text-fill: #f1f5f9;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+}
+
+.archivo-label {
+    -fx-text-fill: #60a5fa;
+    -fx-font-size: 12px;
+    -fx-font-weight: bold;
+}
+
+/* =========================
+   EDITOR
+   ========================= */
+
+.editor {
+    -fx-font-family: "Consolas";
+    -fx-font-size: 14px;
+
+    -fx-text-fill: #e2e8f0;
+
+    -fx-control-inner-background: #0b1120;
+
+    -fx-highlight-fill: #2563eb;
+    -fx-highlight-text-fill: white;
+
+    -fx-background-color: #0b1120;
+
+    -fx-border-color: #263244;
+    -fx-border-radius: 5;
+    -fx-background-radius: 5;
+}
+
+.editor .content {
+    -fx-background-color: #0b1120;
+}
+
+/* =========================
+   RESULTADOS
+   ========================= */
+
+.resultado {
+    -fx-font-family: "Consolas";
+    -fx-font-size: 13px;
+
+    -fx-text-fill: #cbd5e1;
+
+    -fx-control-inner-background: #0b1120;
+
+    -fx-background-color: #0b1120;
+
+    -fx-border-color: transparent;
+}
+
+.resultado .content {
+    -fx-background-color: #0b1120;
+}
+
+/* =========================
+   TABS
+   ========================= */
+
+.tab-pane {
+    -fx-background-color: #0b1120;
+}
+
+.tab-pane .tab-header-area .tab-header-background {
+    -fx-background-color: #111827;
+}
+
+.tab {
+    -fx-background-color: #1e293b;
+
+    -fx-padding: 6 12 6 12;
+
+    -fx-background-radius: 6 6 0 0;
+}
+
+.tab:hover {
+    -fx-background-color: #334155;
+}
+
+.tab:selected {
+    -fx-background-color: #2563eb;
+}
+
+.tab .tab-label {
+    -fx-text-fill: #cbd5e1;
+    -fx-font-size: 12px;
+}
+
+.tab:selected .tab-label {
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+}
+
+/* =========================
+   SPLIT PANE
+   ========================= */
+
+.split-pane {
+    -fx-background-color: #0f172a;
+}
+
+.split-pane-divider {
+    -fx-background-color: #263244;
+    -fx-padding: 1;
+}
+
+/* =========================
+   SCROLLBAR
+   ========================= */
+
+.scroll-bar {
+    -fx-background-color: #0b1120;
+}
+
+.scroll-bar .thumb {
+    -fx-background-color: #334155;
+    -fx-background-radius: 10;
+}
+
+.scroll-bar .thumb:hover {
+    -fx-background-color: #475569;
+}
+
+.scroll-bar .increment-button,
+.scroll-bar .decrement-button {
+    -fx-background-color: transparent;
+}
+
+/* =========================
+   ESTADO
+   ========================= */
+
+.estado {
+    -fx-background-color: #111827;
+
+    -fx-text-fill: #94a3b8;
+
+    -fx-padding: 10 18 10 18;
+
+    -fx-border-color: #263244 transparent transparent transparent;
+    -fx-border-width: 1 0 0 0;
+
+    -fx-font-size: 12px;
+    -fx-font-weight: bold;
+}
+
+.estado-correcto {
+    -fx-text-fill: #4ade80;
+}
+
+.estado-error {
+    -fx-text-fill: #f87171;
+}
